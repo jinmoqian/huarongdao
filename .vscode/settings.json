@@ -1,0 +1,6 @@
+{
+    "search.exclude": {
+        "**/generated": true,
+        "**/statics": true
+    }
+}

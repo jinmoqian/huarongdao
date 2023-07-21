@@ -1,0 +1,6 @@
+github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=
+github.com/google/uuid v1.3.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/maxence-charriere/go-app/v9 v9.7.2 h1:DXpjUZbWyeSQxvdWzzRKBLsUwqj6jg6k2IfjufT4q7k=
+github.com/maxence-charriere/go-app/v9 v9.7.2/go.mod h1:gzgFoeaDuoNHw9MbJraTCKIoKtZ/SoIfOIHHn2FOffc=
+golang.org/x/sys v0.10.0 h1:SqMFp9UcQJZa+pmYuAKjd9xq1f0j5rLcDIk0mj4qAsA=
+golang.org/x/sys v0.10.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
