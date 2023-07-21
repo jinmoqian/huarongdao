@@ -29,11 +29,11 @@ generated/*.go: doserial$(EXT) statics/game.js statics/libcanvas.js statics/inde
 #bash -c 'perl -e '"'"'for $$a (@ARGV){open $$fh,"<", $$a or die $$!; @c=<$$fh>; $$data{$$a}=join "", map {if(ord($$_)>=32 && ord($$_)<=126 && ord($$_)!=34 && ord($$_)!=92 ){ $$_; }else{sprintf "\\x%02X", ord; } } split//, join "", @c; close $$fh; $$nn=$$a; $$nn=~s/\//_slash_/; $$nn=~s/\./_dot_/; $$namemap{$$a}=$$nn; open $$fh, ">", "generated/".$$nn."_content.go" or die $$!; print $$fh "package generated\nconst ", $$nn, " = \"", $$data{$$a}, "\"\n"; close $$fh;}; $$n="generated/contents.go"; open $$fh, ">", $$n or die $$1; print $$fh "package generated\nvar Contents = map[string]string{\n";       for $$k (keys %namemap){print $$fh "\"", $$k, "\":", $$namemap{$$k}, ",\n"};        print $$fh "}\n"; close $$fh; '"'"" statics/game.js statics/libcanvas.js statics/index.html statics/favicon.ico data/data "
 	./doserial$(EXT) statics/game.js statics/libcanvas.js statics/index.html statics/favicon.ico +data/data
 
-huarongdao-darwin/huarongdao-oc/libhuarongdao-arm64.a: go.mod go.sum game/*.go generated/*.go
+huarongdao-darwin/huarongdao-oc/libhuarongdao-arm64.a: go.mod go.sum game/*.go generated/*.go *.go
 	CGO_ENABLED=1 GOOS=darwin GOARCH=arm64 go build -o huarongdao-darwin/huarongdao-oc//libhuarongdao-arm64.a -buildmode c-archive && \
 	cp huarongdao-darwin/huarongdao-oc/libhuarongdao-arm64.h huarongdao-darwin/huarongdao-oc/libhuarongdao.h
 
-huarongdao-darwin/huarongdao-oc/libhuarongdao-amd64.a: go.mod go.sum game/*.go generated/*.go
+huarongdao-darwin/huarongdao-oc/libhuarongdao-amd64.a: go.mod go.sum game/*.go generated/*.go *.go
 	CGO_ENABLED=1 GOOS=darwin GOARCH=amd64 go build -o huarongdao-darwin/huarongdao-oc/libhuarongdao-amd64.a -buildmode c-archive && \
 	cp huarongdao-darwin/huarongdao-oc/libhuarongdao-amd64.h huarongdao-darwin/huarongdao-oc/libhuarongdao.h
 

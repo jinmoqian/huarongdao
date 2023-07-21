@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A1558B02A677191001B4050 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1558AF2A677191001B4050 /* AppDelegate.m */; };
+		3A1558B32A677191001B4050 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1558B22A677191001B4050 /* ViewController.m */; };
+		3A1558B62A677191001B4050 /* huarongdao_oc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A1558B42A677191001B4050 /* huarongdao_oc.xcdatamodeld */; };
+		3A1558B82A677192001B4050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1558B72A677192001B4050 /* Assets.xcassets */; };
+		3A1558BB2A677192001B4050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1558B92A677192001B4050 /* Main.storyboard */; };
+		3A1558BD2A677192001B4050 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1558BC2A677192001B4050 /* main.m */; };
+		3A1558C82A677192001B4050 /* huarongdao_ocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1558C72A677192001B4050 /* huarongdao_ocTests.m */; };
+		3A1558D22A677192001B4050 /* huarongdao_ocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1558D12A677192001B4050 /* huarongdao_ocUITests.m */; };
+		3A1558D42A677192001B4050 /* huarongdao_ocUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1558D32A677192001B4050 /* huarongdao_ocUITestsLaunchTests.m */; };
+		3A1558E22A6771E2001B4050 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1558E12A6771E2001B4050 /* WebKit.framework */; };
+		3A2A8C122A6A9F0300FF942E /* libhuarongdao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2A8C102A6A9E8A00FF942E /* libhuarongdao.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A1558C42A677192001B4050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A1558A32A677191001B4050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A1558AA2A677191001B4050;
+			remoteInfo = "huarongdao-oc";
+		};
+		3A1558CE2A677192001B4050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A1558A32A677191001B4050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A1558AA2A677191001B4050;
+			remoteInfo = "huarongdao-oc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A1558AB2A677191001B4050 /* huarongdao-oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "huarongdao-oc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1558AE2A677191001B4050 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A1558AF2A677191001B4050 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A1558B12A677191001B4050 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A1558B22A677191001B4050 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A1558B52A677191001B4050 /* huarongdao_oc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = huarongdao_oc.xcdatamodel; sourceTree = "<group>"; };
+		3A1558B72A677192001B4050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A1558BA2A677192001B4050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A1558BC2A677192001B4050 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A1558BE2A677192001B4050 /* huarongdao_oc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = huarongdao_oc.entitlements; sourceTree = "<group>"; };
+		3A1558C32A677192001B4050 /* huarongdao-ocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "huarongdao-ocTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1558C72A677192001B4050 /* huarongdao_ocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = huarongdao_ocTests.m; sourceTree = "<group>"; };
+		3A1558CD2A677192001B4050 /* huarongdao-ocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "huarongdao-ocUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1558D12A677192001B4050 /* huarongdao_ocUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = huarongdao_ocUITests.m; sourceTree = "<group>"; };
+		3A1558D32A677192001B4050 /* huarongdao_ocUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = huarongdao_ocUITestsLaunchTests.m; sourceTree = "<group>"; };
+		3A1558E12A6771E2001B4050 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3A2A8C102A6A9E8A00FF942E /* libhuarongdao.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhuarongdao.a; path = "huarongdao-oc/libhuarongdao.a"; sourceTree = "<group>"; };
+		3A2A8C112A6A9E8B00FF942E /* libhuarongdao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = libhuarongdao.h; path = "huarongdao-oc/libhuarongdao.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A1558A82A677191001B4050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1558E22A6771E2001B4050 /* WebKit.framework in Frameworks */,
+				3A2A8C122A6A9F0300FF942E /* libhuarongdao.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1558C02A677192001B4050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1558CA2A677192001B4050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A1558A22A677191001B4050 = {
+			isa = PBXGroup;
+			children = (
+				3A1558AD2A677191001B4050 /* huarongdao-oc */,
+				3A1558C62A677192001B4050 /* huarongdao-ocTests */,
+				3A1558D02A677192001B4050 /* huarongdao-ocUITests */,
+				3A1558AC2A677191001B4050 /* Products */,
+				3A1558E02A6771E2001B4050 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A1558AC2A677191001B4050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A1558AB2A677191001B4050 /* huarongdao-oc.app */,
+				3A1558C32A677192001B4050 /* huarongdao-ocTests.xctest */,
+				3A1558CD2A677192001B4050 /* huarongdao-ocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A1558AD2A677191001B4050 /* huarongdao-oc */ = {
+			isa = PBXGroup;
+			children = (
+				3A1558AE2A677191001B4050 /* AppDelegate.h */,
+				3A1558AF2A677191001B4050 /* AppDelegate.m */,
+				3A1558B12A677191001B4050 /* ViewController.h */,
+				3A1558B22A677191001B4050 /* ViewController.m */,
+				3A1558B72A677192001B4050 /* Assets.xcassets */,
+				3A1558B92A677192001B4050 /* Main.storyboard */,
+				3A1558BC2A677192001B4050 /* main.m */,
+				3A1558BE2A677192001B4050 /* huarongdao_oc.entitlements */,
+				3A1558B42A677191001B4050 /* huarongdao_oc.xcdatamodeld */,
+			);
+			path = "huarongdao-oc";
+			sourceTree = "<group>";
+		};
+		3A1558C62A677192001B4050 /* huarongdao-ocTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A1558C72A677192001B4050 /* huarongdao_ocTests.m */,
+			);
+			path = "huarongdao-ocTests";
+			sourceTree = "<group>";
+		};
+		3A1558D02A677192001B4050 /* huarongdao-ocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A1558D12A677192001B4050 /* huarongdao_ocUITests.m */,
+				3A1558D32A677192001B4050 /* huarongdao_ocUITestsLaunchTests.m */,
+			);
+			path = "huarongdao-ocUITests";
+			sourceTree = "<group>";
+		};
+		3A1558E02A6771E2001B4050 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A2A8C102A6A9E8A00FF942E /* libhuarongdao.a */,
+				3A2A8C112A6A9E8B00FF942E /* libhuarongdao.h */,
+				3A1558E12A6771E2001B4050 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A1558AA2A677191001B4050 /* huarongdao-oc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1558D72A677192001B4050 /* Build configuration list for PBXNativeTarget "huarongdao-oc" */;
+			buildPhases = (
+				3A1558A72A677191001B4050 /* Sources */,
+				3A1558A82A677191001B4050 /* Frameworks */,
+				3A1558A92A677191001B4050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "huarongdao-oc";
+			productName = "huarongdao-oc";
+			productReference = 3A1558AB2A677191001B4050 /* huarongdao-oc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A1558C22A677192001B4050 /* huarongdao-ocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1558DA2A677192001B4050 /* Build configuration list for PBXNativeTarget "huarongdao-ocTests" */;
+			buildPhases = (
+				3A1558BF2A677192001B4050 /* Sources */,
+				3A1558C02A677192001B4050 /* Frameworks */,
+				3A1558C12A677192001B4050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A1558C52A677192001B4050 /* PBXTargetDependency */,
+			);
+			name = "huarongdao-ocTests";
+			productName = "huarongdao-ocTests";
+			productReference = 3A1558C32A677192001B4050 /* huarongdao-ocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A1558CC2A677192001B4050 /* huarongdao-ocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1558DD2A677192001B4050 /* Build configuration list for PBXNativeTarget "huarongdao-ocUITests" */;
+			buildPhases = (
+				3A1558C92A677192001B4050 /* Sources */,
+				3A1558CA2A677192001B4050 /* Frameworks */,
+				3A1558CB2A677192001B4050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A1558CF2A677192001B4050 /* PBXTargetDependency */,
+			);
+			name = "huarongdao-ocUITests";
+			productName = "huarongdao-ocUITests";
+			productReference = 3A1558CD2A677192001B4050 /* huarongdao-ocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A1558A32A677191001B4050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3A1558AA2A677191001B4050 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3A1558C22A677192001B4050 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3A1558AA2A677191001B4050;
+					};
+					3A1558CC2A677192001B4050 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3A1558AA2A677191001B4050;
+					};
+				};
+			};
+			buildConfigurationList = 3A1558A62A677191001B4050 /* Build configuration list for PBXProject "huarongdao-oc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A1558A22A677191001B4050;
+			productRefGroup = 3A1558AC2A677191001B4050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A1558AA2A677191001B4050 /* huarongdao-oc */,
+				3A1558C22A677192001B4050 /* huarongdao-ocTests */,
+				3A1558CC2A677192001B4050 /* huarongdao-ocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A1558A92A677191001B4050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1558B82A677192001B4050 /* Assets.xcassets in Resources */,
+				3A1558BB2A677192001B4050 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1558C12A677192001B4050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1558CB2A677192001B4050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A1558A72A677191001B4050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1558B62A677191001B4050 /* huarongdao_oc.xcdatamodeld in Sources */,
+				3A1558B32A677191001B4050 /* ViewController.m in Sources */,
+				3A1558BD2A677192001B4050 /* main.m in Sources */,
+				3A1558B02A677191001B4050 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1558BF2A677192001B4050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1558C82A677192001B4050 /* huarongdao_ocTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1558C92A677192001B4050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1558D42A677192001B4050 /* huarongdao_ocUITestsLaunchTests.m in Sources */,
+				3A1558D22A677192001B4050 /* huarongdao_ocUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A1558C52A677192001B4050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A1558AA2A677191001B4050 /* huarongdao-oc */;
+			targetProxy = 3A1558C42A677192001B4050 /* PBXContainerItemProxy */;
+		};
+		3A1558CF2A677192001B4050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A1558AA2A677191001B4050 /* huarongdao-oc */;
+			targetProxy = 3A1558CE2A677192001B4050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A1558B92A677192001B4050 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A1558BA2A677192001B4050 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A1558D52A677192001B4050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3A1558D62A677192001B4050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3A1558D82A677192001B4050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "huarongdao-oc/huarongdao_oc.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/huarongdao-oc",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my.huarongdao-oc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		3A1558D92A677192001B4050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "huarongdao-oc/huarongdao_oc.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/huarongdao-oc",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my.huarongdao-oc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		3A1558DB2A677192001B4050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "onchain.huarongdao-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/huarongdao-oc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/huarongdao-oc";
+			};
+			name = Debug;
+		};
+		3A1558DC2A677192001B4050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "onchain.huarongdao-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/huarongdao-oc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/huarongdao-oc";
+			};
+			name = Release;
+		};
+		3A1558DE2A677192001B4050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "onchain.huarongdao-ocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "huarongdao-oc";
+			};
+			name = Debug;
+		};
+		3A1558DF2A677192001B4050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "onchain.huarongdao-ocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "huarongdao-oc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A1558A62A677191001B4050 /* Build configuration list for PBXProject "huarongdao-oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1558D52A677192001B4050 /* Debug */,
+				3A1558D62A677192001B4050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1558D72A677192001B4050 /* Build configuration list for PBXNativeTarget "huarongdao-oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1558D82A677192001B4050 /* Debug */,
+				3A1558D92A677192001B4050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1558DA2A677192001B4050 /* Build configuration list for PBXNativeTarget "huarongdao-ocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1558DB2A677192001B4050 /* Debug */,
+				3A1558DC2A677192001B4050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1558DD2A677192001B4050 /* Build configuration list for PBXNativeTarget "huarongdao-ocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1558DE2A677192001B4050 /* Debug */,
+				3A1558DF2A677192001B4050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A1558B42A677191001B4050 /* huarongdao_oc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A1558B52A677191001B4050 /* huarongdao_oc.xcdatamodel */,
+			);
+			currentVersion = 3A1558B52A677191001B4050 /* huarongdao_oc.xcdatamodel */;
+			path = huarongdao_oc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A1558A32A677191001B4050 /* Project object */;
+}
