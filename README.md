@@ -4,10 +4,10 @@
 Download
 |OS|file|
 |---|---|
-|Windows|[huarongdao.exe](./raw/main/huarongdao.exe)|
-|Windows XP|[huarongdaoxp.exe](./raw/main/huarongdaoxp.exe)|
-|Linux|[huarongdao](./raw/main/huarongdao)|
-|macOS|[huarongdao.app.zip](./raw/main/huarongdao.app.zip)|
+|Windows|[huarongdao.exe](../../raw/main/huarongdao.exe)|
+|Windows XP|[huarongdaoxp.exe](../../raw/main/huarongdaoxp.exe)|
+|Linux|[huarongdao](../../raw/main/huarongdao)|
+|macOS|[huarongdao.app.zip](../../raw/main/huarongdao.app.zip)|
 
 Build from source(not recommended)
 |OS|Command|
